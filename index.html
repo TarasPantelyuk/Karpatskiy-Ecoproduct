@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karpatskiy Ecoproduct</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script>
+        function submitForm(event) {
+            if (event.keyCode === 13) { // Перевірка на клавішу "Enter"
+                document.getElementById('searchForm').submit();
+            }
+        }
+    </script>
+</head>
+<body>
+    <form id="searchForm" action="search" method="get">
+        <input type="text" name="q" id="searchInput" placeholder="Пошук..." oninput="submitForm()">
+        <p id="centerText"></p>
+    </form>
+
+        <h1>Karpatskiy Ecoproduct</h1>
+
+    <div id="login">
+        <a href="login.html"><h3>Вхід/реєстрація</h3></a>
+        <a href="korzina.html"><h3>Корзина</h3></a>
+    </div>
+
+    <div id="nav">
+    <a href="#we"><p>Про нас</p></a>
+    <a href="#tovar"><p>Магазин</p></a>
+    <a href="#pro nas"><p>Контакти</p></a>
+</div>
+<div>
+    <h2 id="a">Найкращі
+        Karpaski Ecoproduct
+        тільки у нас</h2>
+</div>
+
+<h2 id="tovar">Категорії товарів</h2>
+
+ <div id="cat">
+    <a href="store.html"><img src="Images/Дерево.png"></a>
+    <a href="store.html"><img src="Images/Овчина.png"></a>
+    <a href="store.html"><img src="Images/Чаї.png"></a>
+    <a href="store.html"><img src="Images/Спеції.png"></a>
+</div>
+
+<div id="txt">
+    <a href="store.html"><h3>Деревяні вироби</h3></a>
+    <a href="store.html"><h3>Вироби з овчини</h3></a>
+    <a href="store.html"><h3>Карпатські чаї</h3></a>
+    <a href="store.html"><h3>Карпатські спеції</h3></a>
+</div>
+
+<h2 id="we">Про нас</h2>
+<p id="wee">Звітливо привітний магазин "Karpatskiy EcoProduct" - ваша перша зупинка на шляху до природної елегантності та аутентичної якості. Наша місія - принести вам найкращі продукти з Карпатських гір, щоб ви могли насолоджуватися натхненням і багатством цього величного регіону.
+    Чому ми особливі? У нас є все, щоб зробити вашу кухню, ваш дім та ваше життя ще кращими: Карпатські Чаї, Вироби з Овчини, Дерев'яні Вироби, Карпатські Спеції. У "Karpatskiy EcoProduct" ми віримо в повагу до природи та розуміння її цінності. Ми прагнемо привнести цю гармонію у ваше життя, пропонуючи найкращі продукти з екологічно чистих джерел.</p>
+
+    <footer id="pro nas">
+        <h4>Karpatskiy Ecoproduct</h4>
+        <h4>Location</h4>
+        <img src="Images/qrcode.png">
+        <h5>+380680514242</h5>
+        <h5>+380686252048</h5>
+    </footer>
+   
+    
+</body> 
+</html>
