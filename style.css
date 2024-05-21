@@ -1,6 +1,6 @@
 body {
     background-image: url("Images/magic.jpg");
-    background-size: 1700px 880px;
+    background-size: 100% 880px;
     background-repeat: no-repeat;
     background-color: bisque;
     margin-left: 0px;
